@@ -1,6 +1,6 @@
 let message; // создает переменную message
-message='Hello'; // поместили в переменную message n'Hello' при помощи оператора присваивания '='
-console.log( `${message}!` ); // показывает содержимое переменной
+message='Hello'; // поместили в переменную message 'Hello' при помощи оператора присваивания '='
+console.log( `${message}` ); // показывает содержимое переменной
 
 //let message = 'hello'; // для краткости
 
