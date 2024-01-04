@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Обнуление всех стилей */
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/*  */
+
+.header{
+    background: url(../image/background.jpg);
+    top: 0px;
+    width: 1440px;
+    height: 765px;
+}
+
+.header-menu{
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px 0px rgba(13, 96, 111, 0.5);
+    width: 1440px;
+    height: 90px;
+}
+.header-logo{
+    position: relative;
+    top: 28px;
+    left: 122px;
+    font-size: 33px;
+    color: rgb(255, 255, 255);
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+.header-nav{
+    display: flex;
+    margin: 4px 0px 0px 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Red Hat Text';
+}
+
+.spisok-menu {
+    position: relative;
+    display: flex;
+    bottom: 26px;
+    left: 494px;
+    gap: 42px;
+}
+
+.header-button{
+    
+}
+.but{
+    padding: 10px, 229px;
+    border-radius: 10px;
+    font-size: 19px;
+    background-color: #0D606F;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: 'Red Hat Text', sans-serif; 
+}
+.head{
+    position: absolute;
+    width: 103px;
+    height: 41px;
+    top: 25px;
+    left: 1217px;
+}
+.trip-content{
+    position: absolute;
+    width: 790px;
+    height: 422px;
+    top: 118px;
+    left: 120px;
+}
+.explore-content{
+    font-family: Aleo;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    
+}
+.receive-content{
+    position: relative;
+    width: 723px;
+    height: 24px;
+    top: 35px;
+    font-family: Aleo;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+.search-form{
+    position: relative;
+    width: 892px;
+    height: 95px;
+    top: 83px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 40px;
+    font-family: Aleo;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 29px;
+    /* color: rgba(242, 120, 92, 1); */
+}
+
+.submit{
+    position: relative;
+    font-size: 27px;
+    width: 228px;
+    height: 59px;
+    left: 647px;
+    top: 5px;
+}
+
+.three-steps {
+    position: absolute;
+    top: 845px;
+    left: 131px;
+    Width:1177px;
+    Height:247px;
+    
+}
+.flame {
+    position: relative;
+    width: 611px;
+    height: 53px;
+    left: 283px;
+    font-family: 'Red Hat Text';
+    font-size: 41px;
+    line-height: 53px;
+    color: rgba(242, 120, 92, 1);
+
+}
+.allsteps {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 1177px;
+    height: 154px;
+    top: 40px;   
+}
+.back {
+    position: relative;
+    background-color:rgba(242, 120, 92, 1);
+    width: 100px;
+    height: 100px;
+    border-radius: 16px;
+}
+.stepslogo {
+    position: relative;
+    width: 50px;
+    height: 45px;
+    top: 28px;
+    left: 25px;
+    
+}
+.firstblock{
+    width: 247px;
+    height: 154px;
+}
+.first{
+    position: relative;
+    left: 73px;
+}
+.second{
+    left: 61px;
+}
+.third{
+
+    left: 109px;
+}
+.secondblock{
+    position: relative;
+    width: 222px;
+    height: 154px;
+    left: 230px;
+    
+}
+.thirdblock{
+    position: relative;
+    width: 317px;
+    height: 154px;
+    left: 390px;
+    
+}
+.infosteps{
+    position: relative;
+    width: 317px;
+    height: 24px;
+    top: 30px;
+    font-family: Aleo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(13, 96, 111, 1);
+
+    
+}

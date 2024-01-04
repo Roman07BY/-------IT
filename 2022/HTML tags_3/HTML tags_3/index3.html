@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>HTML TAGS part N3</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+
+<body>
+	<form action="#" method="get">
+		<div>
+			<p>Имя</p>
+			<input tabindex="1" placeholder="username" type="text" name="Username" value="">
+		</div>
+		<div>
+			<p>Пароль</p>
+			<input tabindex="2" placeholder="password" type="password" name="userpassword" value="">
+		</div>
+		<div>
+			<p>Телефон</p>
+			<input tabindex="3" placeholder="phone number" type="tel" name="telephone" value="+375(29)">
+		</div>
+		<div>
+			<p>Пол</p>
+			<div>
+				<input tabindex="4" type="radio" name="pol" value="male">мужской
+			</div>
+			<div>
+				<input tabindex="4" checked type="radio" name="pol" value="female">женский
+			</div>
+		</div>
+		<div>
+			<p>Имущество</p>
+			<div>
+				<input tabindex="5" checked type="checkbox" name="bycikle" value="">велосипед
+			</div>
+			<div>
+				<input tabindex="6" type="checkbox" name="car" value="">машина
+			</div>
+			<div>
+				<input tabindex="7" disabled type="checkbox" name="home" value="">дом
+			</div>
+		</div>
+		<div>
+			<p>Дополнительная информация</p>
+			<textarea tabindex="8" name="text" cols="30" rows="10"></textarea>
+		</div>
+		<div>
+			<p>Прикрепить фото</p>
+			<input tabindex="9" type="file" name="userfoto">
+		</div>
+		<div>
+			<p>Любимый цвет</p>
+			<div>
+				<select tabindex="10" name="color" id="">
+					<option value="red">красный</option>
+					<option selected value="blue">синий</option>
+					<option value="yellow">желтый</option>
+				</select>
+			</div>
+		</div>
+		<div>
+			<p>Действия</p>
+			<button tabindex="11" type="submit">отправить</button>
+			<button tabindex="12" type="reset">очистить</button>
+		</div>
+
+
+	</form>
+
+</body>
+<footer>
+
+</footer>
+
+</html>
