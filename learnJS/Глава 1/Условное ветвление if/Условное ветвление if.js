@@ -15,3 +15,10 @@ if (c===b) {
 else {
 	console.log("false");
 }
+
+//let result = условие ? значение1 : значение2;
+
+let age=12
+sravn = (age > 18) ? true : false;
+console.log(sravn);
+
