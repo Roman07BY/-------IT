@@ -1,6 +1,8 @@
-let b="ECMAScript"
-a
-console.log('Какое "оффициальное" название JavaScript?');
-if {
-a
-};
+alert('Какое «официальное» название JavaScript?');
+let company = prompt('');
+if (company === 'ECMAScript') {
+  alert('Верно!');
+} else {
+  alert('Не знаете? ECMAScript!');
+}
+
