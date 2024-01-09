@@ -1,7 +1,7 @@
 alert('Введите логин')
 let login=prompt('');
 let password;
-let result;
+let result=login;
 if (login!=('Админ'))
 {
 alert('Отменено');
@@ -25,4 +25,15 @@ alert('Здраствуйте');
 // alert( 1 && 2 && 3 ); // 3
 
 
-if(result= login=null && login=('') && login=('Админ'))
+
+
+if(result=('Админ') || result=(null))
+{
+    alert('введите пароль');
+    password=prompt('');
+        if (password=('Яглавный'))
+        {
+            alert('Здраствуйте');
+        }
+        else if (password=('Яглавный'))
+}
