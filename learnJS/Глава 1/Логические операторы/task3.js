@@ -27,13 +27,34 @@ alert('Здраствуйте');
 
 
 
-if(result=('Админ') || result=(null))
-{
-    alert('введите пароль');
-    password=prompt('');
-        if (password=('Яглавный'))
-        {
-            alert('Здраствуйте');
-        }
-        else if (password=('Яглавный'))
+//if(result=('Админ') || result=(null))
+//{
+//    alert('введите пароль');
+//    password=prompt('');
+//        if (password=('Яглавный'))
+//        {
+//            alert('Здраствуйте');
+//        }
+//        else if (password=('Яглавный'))
+//}
+
+
+let userName = prompt("Кто там?", '');
+
+if (userName === 'Админ') {
+
+  let pass = prompt('Пароль?', '');
+
+  if (pass === 'Я главный') {
+    alert( 'Здравствуйте!' );
+  } else if (pass === '' || pass === null) {
+    alert( 'Отменено' );
+  } else {
+    alert( 'Неверный пароль' );
+  }
+
+} else if (userName === '' || userName === null) {
+  alert( 'Отменено' );
+} else {
+  alert( "Я вас не знаю" );
 }
