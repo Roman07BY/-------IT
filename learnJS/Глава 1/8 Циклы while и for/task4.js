@@ -1,17 +1,10 @@
-const arrayOfNumbers = [1,2,3,4,5,6,7,8,9,10];
-let i=0;
-//arrayOfNumbers = i;
-arrayOfNumbers[i];
-console.log(`${i}`);
-
-
-
-
-
-//for(i)
-
-
-
-//function positiveOfNumbers(arrayOfNumbers){
-//	for(let index=0; index<=arrayOfNumbers.length; )
-//}
+let sum = 0;
+const ArrayOfNumbers = [1,2,-3,-4,-5,-6,-7,8,9,-10];
+for(let index = 0; index < ArrayOfNumbers.length; index++)
+{
+    if(ArrayOfNumbers[index] >0)
+    {
+        sum += ArrayOfNumbers[index];
+    }  
+}
+console.log(`${sum}`);
