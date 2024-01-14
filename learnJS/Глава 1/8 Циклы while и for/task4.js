@@ -8,3 +8,7 @@ for(let index = 0; index < ArrayOfNumbers.length; index++)
     }  
 }
 console.log(`${sum}`);
+
+
+
+//задача на поиск четных положительных элементов в массиве и нахождение ех суммы
