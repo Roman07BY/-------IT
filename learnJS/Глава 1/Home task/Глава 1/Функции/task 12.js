@@ -8,8 +8,8 @@ function noSpace(x) {
   return string;
 }
 
-console.log(noSpace("asdas asda asdad asda2 kfjf oowrj"));
-noSpace("asdas asda asdad asda2 kfjf oowrj");
+console.log(noSpace("roma ebachit vse zadachi na yra"));
+noSpace("roma ebachit vse zadachi na yra");
 
 //console.log(basicOp("+", 9, 3));
 //basicOp = ("+", 9, 3);
