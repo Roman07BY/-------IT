@@ -1,9 +1,9 @@
 function removeChar(str) {
-  let sumstr;
-  for (let index = 0; index < str.length; index++) {
-    if (index === str.length - 1) 
-	sumstr += str[index];
+  let removeCharStr = "";
+  for (let index = 1; index < str.length - 1; index++) {
+    removeCharStr += str[index];
   }
-
-  return sumstr;
+  return removeCharStr;
 }
+let string = "valet";
+console.log(removeChar(string));
