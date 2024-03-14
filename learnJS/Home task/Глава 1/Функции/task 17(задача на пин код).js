@@ -11,4 +11,4 @@ function validatePIN(pin) {
   return true;
 }
 
-console.log(validatePIN("6666")); //вызов функции
+console.log(validatePIN("63666")); //вызов функции
